@@ -1,0 +1,33 @@
+Requerimiento y notas dev
+
+API
+https://developers.arcgis.com/rest/geocode/api-reference/geocoding-find-address-candidates.htm
+
+Repo
+https://github.com/alemol/geocoding
+
+* no es un .CSV sino un .XLSX
+* las columnas no se llaman igual
+* enviar el resultado a otro archivo  en lugar del print(s) que lo manda a STDIN
+
+
+* NO TRIVIAL modificar la query para incluir número (que puede ser opcional)
+-sugiere Sergio prueba con o sin número exterior
+-siguero regexp de número entero positivo  es el unico True
+
+if numero_ext:
+	# acomodar el número al inicio del string
+	# Ejemplos de la doc de Street addresses
+	# 27488 Stanford Ave, Bowden, North Dakota
+    # 380 New York St, Redlands, CA 92373
+	df['query'] = df['numext']+' '+df['CALLE']+', '+df['COL']+', '+df['MUN']+', '+df['EDO']+', '+str(df['CP'])
+else:
+	df['query'] = df['CALLE']+', '+df['COL']+', '+df['MUN']+', '+df['EDO']+', '+str(df['CP'])
+
+
+* NO TRIVIAL 104 mil registros
+- recordar que no hay problema por pagar
+	¿qué ventaja nos daría pagar?
+- diseñar la estrategia paralela
+ 
+
