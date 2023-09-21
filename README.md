@@ -51,10 +51,10 @@ El resultado final son datos georreferenciados con buena precisión.
 
 ## Dependencias
 
-Python 3.8.0
-requests==2.27.1
-geopandas==0.8.1
-thefuzz==0.19.0
+* Python 3.8.0
+* requests==2.27.1
+* geopandas==0.8.1
+* thefuzz==0.19.0
 
 
 ## Notas
@@ -79,8 +79,11 @@ $ split [options] filename prefix
 
 **Alejandro Molina-Villegas**
 Investigador CONAHCYT - Centro de Investigación en Ciencias de Información Geoespacial
+
 amolina@centrogeo.edu.mx
+
 Tel. 01 (999) 688 53 00 Ext. 1005
+
 * [CONAHCyT-CentroGeo](https://www.centrogeo.org.mx/areas-profile/amolina#investigacion)
 * [dblp](https://dblp.uni-trier.de/pers/hd/m/Molina=Villegas:Alejandro)
 
