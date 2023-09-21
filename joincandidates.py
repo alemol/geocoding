@@ -1,10 +1,10 @@
 # Soft Geocoding for semi-structured data
-# Using polygons colonias de MX and point from the project
+# Using our own custom service for Mexico
 #
 #  Created by Alex Molina
 #  February 2023
 # 
-#  Enhanced August 2023
+#  Enhanced September 2023
 # based on 
 # Creating spatial join between points and polygons in GeoPandas
 # https://geopandas.org/en/stable/gallery/spatial_joins.html

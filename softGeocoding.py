@@ -1,10 +1,10 @@
 # Soft Geocoding for semi-structured data
-# Using our own custom API service for Mexico
+# Using our own custom service for Mexico
 #
 #  Created by Alex Molina
 #  February 2023
 # 
-#  Enhanced June 2023
+#  Enhanced September 2023
 
 
 from thefuzz import fuzz

@@ -1,3 +1,12 @@
+# Soft Geocoding for semi-structured data
+# Using our own custom service for Mexico
+#
+#  Created by Alex Molina
+#  February 2023
+# 
+#  Enhanced September 2023
+
+
 import geopandas
 import pandas as pd
 import numpy as np
