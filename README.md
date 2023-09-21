@@ -85,12 +85,5 @@ amolina@centrogeo.edu.mx
 Tel. 01 (999) 688 53 00 Ext. 1005
 
 * [CONAHCyT-CentroGeo](https://www.centrogeo.org.mx/areas-profile/amolina#investigacion)
-* [dblp](https://dblp.uni-trier.de/pers/hd/m/Molina=Villegas:Alejandro)
 
 
-<!-- ## Institutions
-
-  * [CentroGeo](https://www.centrogeo.org.mx/) - Centro de Investigación en Ciencias de Información Geoespacial.
-  * [GeoInt](http://www.geoint.mx/) - Laboratorio Nacional de Geointeligencia.
-  * [DataLab](http://datalab.geoint.mx/site/contacto.html#Core_Members) - DataLab
- -->
